@@ -1,4 +1,3 @@
-hello world
 # CliProject
 
 Welcome User! 
