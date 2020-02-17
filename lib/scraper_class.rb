@@ -18,7 +18,11 @@
             hash[hero_attributes[0].split(".")[0]] = {}
             hash[hero_attributes[0].split(".")[0]][:name] = hero_attributes[0].split(".")[0]
             hash[hero_attributes[0].split(".")[0]][:full_name] = hero_attributes[1].split(",")[0].delete('\\"')
-            hash[hero_attributes[0].split(".")[0]][:notes] = hero_attributes[2]
+            if hero_attributes[2]
+              hash[hero_attributes[0].split(".")[0]][:notes] = hero_attributes[2]
+            else
+              hash[hero_attributes[0].split(".")[0]][:notes] = "No details found!"
+            end
             # binding.pry
             heroes << hash
           else

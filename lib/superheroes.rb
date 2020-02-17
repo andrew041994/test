@@ -19,17 +19,9 @@ class Superhero
 
     def self.create(hash)
         new_hero = Superhero.new(hash.keys[0], hash[hash.keys[0]][:full_name], hash[hash.keys[0]][:notes])
-
     end
+    
     def self.all
         @@all        
     end
-
-
 end
-
-scrape.each do |hero|
-    # 
-    Superhero.create(hero)
-end
-
