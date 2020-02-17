@@ -1,29 +1,34 @@
 hello world
 # CliProject
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cli_project`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome User! 
+This App scrapes date from https://en.wikipedia.org/wiki/List_of_Avengers_members
+and returns to the user a list of Avengers menbers along wih their full name and a bit of detail if any is found.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+run the following commands
 
-```ruby
-gem 'cli_project'
-```
+=> git clone https://github.com/andrew041994/cli_project.git
 
-And then execute:
+=> bundle install
 
-    $ bundle
+Then do:
 
-Or install it yourself as:
+=> cd cli_project
 
-    $ gem install cli_project
+=> cd bin
+
+=> ./main
+
+
 
 ## Usage
 
-TODO: Write usage instructions here
+Use this app to look-up members of the Avengers team
+On the main menu select option 1 to view all superheroes, option 2 to sort or option 3 to exit.
+In the search option, select option 1 to search by character name, option 2 to search by full name or option 3 to return 
+to main menu.
 
 ## Development
 

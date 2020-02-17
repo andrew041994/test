@@ -23,7 +23,6 @@
             else
               hash[hero_attributes[0].split(".")[0]][:notes] = "No details found!"
             end
-            # binding.pry
             heroes << hash
           else
             nil

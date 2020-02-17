@@ -21,7 +21,7 @@ class App
         end
 
         def self.all_superheroes
-            Superhero.all.each{|chr|puts "\n Hero: #{chr.character_name}\n Full Name: #{chr.full_name}\n About: #{chr.about}\n" }             
+            Superhero.all.each{|chr|puts "\n Character name: #{chr.character_name}\n Full Name: #{chr.full_name}\n About: #{chr.about}\n" }             
         end
 
         def self.search_by
@@ -39,7 +39,7 @@ class App
                         puts "No Match Found!"
                     else
 
-                    puts "#{hero.character_name}\n#{hero.full_name}\n#{hero.about}"
+                    puts "\n Character name: #{hero.character_name}\n Full Name: #{hero.full_name}\n About: #{hero.about}\n"
 
                     end
                 when 2
@@ -50,7 +50,7 @@ class App
                      if hero == nil 
                         puts "No Match Found!"
                      else
-                        puts "#{hero.character_name}\n#{hero.full_name}\n#{hero.about}"
+                        puts "\n Character name: #{hero.character_name}\n Full Name: #{hero.full_name}\n About: #{hero.about}\n"
                      end
                 when 3
                         return nil
