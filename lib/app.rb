@@ -1,8 +1,7 @@
 
 class App
         def self.main
-            Superhero.build(scrape)
-            #puts "\nWelcome Marvel Fan!. Please chose an option\n 1 View all superheroes\n 2 Search by\n 3 Exit"
+            Superhero.build(Scraper.scrape)
             input = nil
             while input != 3
                 puts "\nWelcome Marvel Fan!. Please chose an option\n 1 View all superheroes\n 2 Search by\n 3 Exit"

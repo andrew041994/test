@@ -1,7 +1,7 @@
 # CliProject
 
 Welcome User! 
-This App scrapes date from https://en.wikipedia.org/wiki/List_of_Avengers_members
+This App scrapes data from https://en.wikipedia.org/wiki/List_of_Avengers_members
 and returns to the user a list of Avengers menbers along wih their full name and a bit of detail if any is found.
 
 ## Installation
@@ -24,7 +24,7 @@ Then do:
 
 ## Usage
 
-Use this app to look-up members of the Avengers team
+Use this app to look-up members of the Avengers team.
 On the main menu select option 1 to view all superheroes, option 2 to sort or option 3 to exit.
 In the search option, select option 1 to search by character name, option 2 to search by full name or option 3 to return 
 to main menu.

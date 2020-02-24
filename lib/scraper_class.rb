@@ -1,6 +1,5 @@
-
-    
-    def scrape
+class Scraper
+    def self.scrape
         doc = Nokogiri::HTML(open("https://en.wikipedia.org/wiki/List_of_Avengers_members"))
         reject_list= ["", "Character", "", "Real name", "", "Joined in", "", "Notes"]
         mega_array = doc.css(".wikitable tbody tr").map{|td|td.children.text}
@@ -30,4 +29,5 @@
         end
     heroes
     end
+  end
 
